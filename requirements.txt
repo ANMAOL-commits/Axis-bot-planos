@@ -1,6 +1,6 @@
 flask
+gunicorn
+google-generativeai
 python-dotenv
-pillow
 matplotlib
 numpy
-ezdxf
