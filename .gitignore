@@ -1,0 +1,5 @@
+.env
+.venv/
+salida/*
+!salida/.gitkeep
+__pycache__/

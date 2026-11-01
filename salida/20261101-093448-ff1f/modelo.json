@@ -1,0 +1,294 @@
+{
+ "titulo": "VIVIENDA UNIFAMILIAR",
+ "subtitulo": "PLANTA GENERAL - MODIFICADA",
+ "lote": {
+  "ancho": 20.0,
+  "alto": 15.0
+ },
+ "norte_grados": 0.0,
+ "espesor_muro_ext": 0.25,
+ "espesor_muro_int": 0.12,
+ "pie": "PROYECTO A MEDIDA",
+ "notas": [],
+ "ambientes": [
+  {
+   "id": "dorm_ppal",
+   "nombre": "DORMITORIO PRINCIPAL",
+   "tipo": "dormitorio",
+   "x": 3.0,
+   "y": 2.0,
+   "w": 4.0,
+   "h": 3.5
+  },
+  {
+   "id": "bano_suite",
+   "nombre": "BAÑO EN SUITE",
+   "tipo": "bano",
+   "x": 1.0,
+   "y": 2.0,
+   "w": 2.0,
+   "h": 3.5
+  },
+  {
+   "id": "bano_ppal",
+   "nombre": "BAÑO PRINCIPAL",
+   "tipo": "bano",
+   "x": 7.0,
+   "y": 2.0,
+   "w": 3.0,
+   "h": 3.5
+  },
+  {
+   "id": "dorm_2",
+   "nombre": "DORMITORIO 2",
+   "tipo": "dormitorio",
+   "x": 10.0,
+   "y": 2.0,
+   "w": 3.0,
+   "h": 3.5
+  },
+  {
+   "id": "pasillo",
+   "nombre": "PASILLO DISTRIBUIDOR",
+   "tipo": "pasillo",
+   "x": 3.0,
+   "y": 5.5,
+   "w": 10.0,
+   "h": 1.2
+  },
+  {
+   "id": "estar",
+   "nombre": "LIVING / ESTAR",
+   "tipo": "estar",
+   "x": 3.0,
+   "y": 6.7,
+   "w": 4.0,
+   "h": 4.0
+  },
+  {
+   "id": "coc_com",
+   "nombre": "COCINA - COMEDOR",
+   "tipo": "cocina_comedor",
+   "x": 7.0,
+   "y": 6.7,
+   "w": 6.0,
+   "h": 5.0
+  }
+ ],
+ "exteriores": [
+  {
+   "id": "patio_fondo",
+   "nombre": "PATIO TRASERO",
+   "tipo": "patio",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 20.0,
+   "h": 2.0
+  },
+  {
+   "id": "galeria",
+   "nombre": "GALERÍA / EXPANSIÓN",
+   "tipo": "galeria",
+   "x": 13.0,
+   "y": 2.0,
+   "w": 6.0,
+   "h": 4.7
+  },
+  {
+   "id": "cochera",
+   "nombre": "COCHERA (2 AUTOS)",
+   "tipo": "cochera",
+   "x": 13.0,
+   "y": 6.7,
+   "w": 6.0,
+   "h": 5.5
+  },
+  {
+   "id": "jardin_frente",
+   "nombre": "JARDÍN FRONTAL",
+   "tipo": "jardin",
+   "x": 0.0,
+   "y": 12.2,
+   "w": 20.0,
+   "h": 2.8
+  }
+ ],
+ "aberturas": [
+  {
+   "tipo": "puerta",
+   "ambiente": "estar",
+   "lado": "S",
+   "pos": 0.5,
+   "pos_m": null,
+   "ancho": 1.0,
+   "giro": "adentro",
+   "bisagra": "izq",
+   "etiqueta": "ACCESO\nPRINCIPAL"
+  },
+  {
+   "tipo": "paso",
+   "ambiente": "estar",
+   "lado": "N",
+   "pos": 0.5,
+   "pos_m": null,
+   "ancho": 1.2,
+   "giro": "adentro",
+   "bisagra": "izq",
+   "etiqueta": ""
+  },
+  {
+   "tipo": "paso",
+   "ambiente": "estar",
+   "lado": "E",
+   "pos": 0.5,
+   "pos_m": null,
+   "ancho": 1.6,
+   "giro": "adentro",
+   "bisagra": "izq",
+   "etiqueta": ""
+  },
+  {
+   "tipo": "paso",
+   "ambiente": "coc_com",
+   "lado": "N",
+   "pos": 0.25,
+   "pos_m": null,
+   "ancho": 1.0,
+   "giro": "adentro",
+   "bisagra": "izq",
+   "etiqueta": ""
+  },
+  {
+   "tipo": "puerta",
+   "ambiente": "coc_com",
+   "lado": "E",
+   "pos": 0.4,
+   "pos_m": null,
+   "ancho": 0.9,
+   "giro": "adentro",
+   "bisagra": "izq",
+   "etiqueta": ""
+  },
+  {
+   "tipo": "puerta",
+   "ambiente": "dorm_ppal",
+   "lado": "S",
+   "pos": 0.3,
+   "pos_m": null,
+   "ancho": 0.9,
+   "giro": "adentro",
+   "bisagra": "der",
+   "etiqueta": ""
+  },
+  {
+   "tipo": "puerta",
+   "ambiente": "bano_suite",
+   "lado": "E",
+   "pos": 0.5,
+   "pos_m": null,
+   "ancho": 0.8,
+   "giro": "adentro",
+   "bisagra": "izq",
+   "etiqueta": ""
+  },
+  {
+   "tipo": "puerta",
+   "ambiente": "bano_ppal",
+   "lado": "S",
+   "pos": 0.5,
+   "pos_m": null,
+   "ancho": 0.8,
+   "giro": "adentro",
+   "bisagra": "izq",
+   "etiqueta": ""
+  },
+  {
+   "tipo": "puerta",
+   "ambiente": "dorm_2",
+   "lado": "S",
+   "pos": 0.3,
+   "pos_m": null,
+   "ancho": 0.9,
+   "giro": "adentro",
+   "bisagra": "izq",
+   "etiqueta": ""
+  },
+  {
+   "tipo": "puerta",
+   "ambiente": "pasillo",
+   "lado": "E",
+   "pos": 0.5,
+   "pos_m": null,
+   "ancho": 0.9,
+   "giro": "afuera",
+   "bisagra": "der",
+   "etiqueta": ""
+  },
+  {
+   "tipo": "ventana",
+   "ambiente": "dorm_ppal",
+   "lado": "N",
+   "pos": 0.5,
+   "pos_m": null,
+   "ancho": 1.8,
+   "giro": "adentro",
+   "bisagra": "izq",
+   "etiqueta": ""
+  },
+  {
+   "tipo": "ventana",
+   "ambiente": "bano_suite",
+   "lado": "N",
+   "pos": 0.5,
+   "pos_m": null,
+   "ancho": 0.6,
+   "giro": "adentro",
+   "bisagra": "izq",
+   "etiqueta": ""
+  },
+  {
+   "tipo": "ventana",
+   "ambiente": "bano_ppal",
+   "lado": "N",
+   "pos": 0.5,
+   "pos_m": null,
+   "ancho": 0.8,
+   "giro": "adentro",
+   "bisagra": "izq",
+   "etiqueta": ""
+  },
+  {
+   "tipo": "ventana",
+   "ambiente": "dorm_2",
+   "lado": "N",
+   "pos": 0.5,
+   "pos_m": null,
+   "ancho": 1.8,
+   "giro": "adentro",
+   "bisagra": "izq",
+   "etiqueta": ""
+  },
+  {
+   "tipo": "ventana",
+   "ambiente": "estar",
+   "lado": "W",
+   "pos": 0.5,
+   "pos_m": null,
+   "ancho": 1.8,
+   "giro": "adentro",
+   "bisagra": "izq",
+   "etiqueta": ""
+  },
+  {
+   "tipo": "ventana",
+   "ambiente": "coc_com",
+   "lado": "S",
+   "pos": 0.5,
+   "pos_m": null,
+   "ancho": 2.0,
+   "giro": "adentro",
+   "bisagra": "izq",
+   "etiqueta": ""
+  }
+ ]
+}

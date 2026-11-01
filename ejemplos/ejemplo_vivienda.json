@@ -1,0 +1,52 @@
+{
+  "titulo": "VIVIENDA UNIFAMILIAR",
+  "subtitulo": "PLANTA BAJA",
+  "lote": {"ancho": 15.0, "alto": 11.0},
+  "norte_grados": 0,
+  "espesor_muro_ext": 0.25,
+  "espesor_muro_int": 0.12,
+  "pie": "UNA CASA,\nUN MEJOR MAÑANA",
+  "notas": [
+    "Medidas aproximadas, pueden variar según el terreno.",
+    "La galería es opcional.",
+    "El plano puede adaptarse a distintas orientaciones y medidas de lote.",
+    "Diseño ideal para una familia de 3 o 4 personas."
+  ],
+  "ambientes": [
+    {"id": "dorm1", "nombre": "DORMITORIO PRINCIPAL", "tipo": "dormitorio", "x": 0.5, "y": 2.0, "w": 3.5, "h": 3.5},
+    {"id": "bano1", "nombre": "BAÑO EN SUITE", "tipo": "bano", "x": 4.0, "y": 2.0, "w": 2.0, "h": 2.2},
+    {"id": "vest", "nombre": "VESTIDOR", "tipo": "vestidor", "x": 4.0, "y": 4.2, "w": 2.0, "h": 1.3},
+    {"id": "dorm2", "nombre": "DORMITORIO 2", "tipo": "dormitorio", "x": 6.0, "y": 2.0, "w": 3.2, "h": 3.5},
+    {"id": "bano2", "nombre": "BAÑO PRINCIPAL", "tipo": "bano", "x": 9.2, "y": 2.0, "w": 2.0, "h": 2.2},
+    {"id": "lav", "nombre": "LAVADERO", "tipo": "lavadero", "x": 9.2, "y": 4.2, "w": 2.0, "h": 1.3},
+    {"id": "pas", "nombre": "PASILLO", "tipo": "pasillo", "x": 0.5, "y": 5.5, "w": 9.5, "h": 1.5},
+    {"id": "estar", "nombre": "LIVING - ESTAR", "tipo": "estar", "x": 0.5, "y": 7.0, "w": 4.5, "h": 4.0},
+    {"id": "coc", "nombre": "COCINA - COMEDOR", "tipo": "cocina_comedor", "x": 5.0, "y": 7.0, "w": 5.0, "h": 4.0}
+  ],
+  "exteriores": [
+    {"id": "jardin", "nombre": "PATIO / JARDÍN\n(espacio libre)", "tipo": "jardin", "x": 0.0, "y": 0.0, "w": 11.2, "h": 2.0},
+    {"id": "galeria", "nombre": "GALERÍA\n(opcional)", "tipo": "galeria", "x": 11.2, "y": 2.0, "w": 3.8, "h": 3.5},
+    {"id": "cochera", "nombre": "COCHERA ABIERTA", "tipo": "cochera", "x": 10.0, "y": 6.0, "w": 5.0, "h": 5.0}
+  ],
+  "aberturas": [
+    {"tipo": "puerta", "ambiente": "dorm1", "lado": "S", "pos": 0.5, "ancho": 0.9},
+    {"tipo": "puerta", "ambiente": "bano1", "lado": "W", "pos": 0.5, "ancho": 0.8},
+    {"tipo": "puerta", "ambiente": "vest", "lado": "W", "pos": 0.5, "ancho": 0.8},
+    {"tipo": "puerta", "ambiente": "dorm2", "lado": "S", "pos": 0.4, "ancho": 0.9},
+    {"tipo": "puerta", "ambiente": "bano2", "lado": "W", "pos": 0.5, "ancho": 0.8},
+    {"tipo": "puerta", "ambiente": "lav", "lado": "S", "pos_m": 0.7, "ancho": 0.7},
+    {"tipo": "paso", "ambiente": "estar", "lado": "N", "pos": 0.5, "ancho": 1.6},
+    {"tipo": "paso", "ambiente": "coc", "lado": "N", "pos": 0.5, "ancho": 1.6},
+    {"tipo": "puerta", "ambiente": "estar", "lado": "S", "pos": 0.85, "ancho": 1.0, "etiqueta": "ACCESO\nPRINCIPAL"},
+    {"tipo": "puerta", "ambiente": "coc", "lado": "E", "pos": 0.3, "ancho": 0.9},
+    {"tipo": "ventana", "ambiente": "dorm1", "lado": "N", "pos": 0.5, "ancho": 1.6},
+    {"tipo": "ventana", "ambiente": "dorm1", "lado": "W", "pos": 0.5, "ancho": 1.2},
+    {"tipo": "ventana", "ambiente": "bano1", "lado": "N", "pos": 0.5, "ancho": 0.6},
+    {"tipo": "ventana", "ambiente": "dorm2", "lado": "N", "pos": 0.5, "ancho": 1.6},
+    {"tipo": "ventana", "ambiente": "bano2", "lado": "N", "pos": 0.5, "ancho": 0.6},
+    {"tipo": "ventana", "ambiente": "lav", "lado": "E", "pos": 0.5, "ancho": 0.6},
+    {"tipo": "ventana", "ambiente": "estar", "lado": "S", "pos": 0.4, "ancho": 2.4},
+    {"tipo": "ventana", "ambiente": "estar", "lado": "W", "pos": 0.5, "ancho": 1.6},
+    {"tipo": "ventana", "ambiente": "coc", "lado": "S", "pos": 0.5, "ancho": 2.4}
+  ]
+}
