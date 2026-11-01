@@ -1,6 +1,7 @@
-flask
+Flask
 gunicorn
-google-generativeai
 python-dotenv
+google-generativeai
 matplotlib
 numpy
+ezdxf
